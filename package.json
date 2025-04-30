@@ -1,16 +1,20 @@
 {
   "name": "simple-web-screenshot",
   "version": "1.0.0",
-  "description": "웹 스크린샷 캡처 도구",
+  "description": "웹 스크린샷 및 HTML 소스 캡처 도구",
   "main": "index.js",
   "scripts": {
     "test": "node screenshot.js --url https://www.google.com",
     "start": "node screenshot.js",
     "google": "node screenshot.js --url https://www.google.com",
     "naver": "node screenshot.js --url https://www.naver.com",
-    "help": "node screenshot.js --help"
+    "help": "node screenshot.js --help",
+    "source": "node getPageSource.js",
+    "source:google": "node getPageSource.js --url https://www.google.com",
+    "source:naver": "node getPageSource.js --url https://www.naver.com",
+    "source:help": "node getPageSource.js --help"
   },
-  "keywords": ["screenshot", "playwright"],
+  "keywords": ["screenshot", "playwright", "html", "source"],
   "author": "",
   "license": "ISC",
   "dependencies": {
