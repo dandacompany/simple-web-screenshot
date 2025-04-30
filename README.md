@@ -12,13 +12,20 @@ Playwright를 사용하여 웹 페이지의 전체 스크린샷을 캡처하는 
 
 ## 설치 방법
 
-1. 의존성 설치:
+### GitHub에서 클론하기
+
+```
+git clone https://github.com/dandacompany/simple-web-screenshot.git
+cd simple-web-screenshot
+```
+
+### 의존성 설치
 
 ```
 npm install
 ```
 
-2. Playwright 브라우저 설치:
+### Playwright 브라우저 설치
 
 ```
 npx playwright install chromium
@@ -103,3 +110,15 @@ node screenshot.js --url https://www.google.com --output google.png
 - 방문할 URL
 - 대기 시간
 - 스크린샷 파일 이름 및 형식
+
+## 기여하기
+
+1. 이 레포지토리를 포크합니다
+2. 새 브랜치를 생성합니다 (`git checkout -b feature/amazing-feature`)
+3. 변경 사항을 커밋합니다 (`git commit -m 'Add some amazing feature'`)
+4. 브랜치에 푸시합니다 (`git push origin feature/amazing-feature`)
+5. Pull Request를 생성합니다
+
+## 라이선스
+
+ISC 라이선스 하에 배포됩니다.
